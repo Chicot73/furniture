@@ -1,0 +1,4 @@
+.benefits__desc {
+    @include font (500, 1.6rem, 150%);
+    @include gray-3;
+}

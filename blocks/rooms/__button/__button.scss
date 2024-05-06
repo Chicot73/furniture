@@ -1,0 +1,26 @@
+.rooms__button {
+    @include font (600, 1.6rem, 150%);
+    @include white;
+    width: 23.4rem;
+    height: 4.8rem;
+    padding: 1.2rem auto;
+    @include orange-bg;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .rooms__button {
+        margin-bottom: 5rem;
+        width: 17.6rem;
+        height: 4.8rem;
+        padding: 1.2rem auto;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .rooms__button {
+        @include font (600, 1.7rem, 150%);
+        width: 21.8rem;
+        height: 5.2rem;
+        padding: 1.3rem auto;
+    }
+}

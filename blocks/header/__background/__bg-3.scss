@@ -1,0 +1,13 @@
+.header__bg-3 {
+    display: none;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .header__bg-3 {
+        display: block;
+        width: 100%;
+        height: 104.5rem;
+        @include absolute00;
+        z-index: -1;
+    }
+}

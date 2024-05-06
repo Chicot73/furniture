@@ -1,0 +1,19 @@
+.rooms__title {
+    @include font (700, 3.7rem, 120%);
+    @include gray-1;
+    margin-bottom: 4.2rem;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .rooms__title {
+        @include font (700, 3.6rem, 120%);
+        margin-bottom: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .rooms__title {
+        @include font (700, 3.3rem, 120%);
+        margin-bottom: 1.1rem;
+    }
+}

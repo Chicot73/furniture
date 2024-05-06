@@ -1,0 +1,11 @@
+.card__like {
+    @include font (600, 1.5rem, 150%);
+    @include white;
+    background: url('../img/main/products/like_ow.svg');
+    background-repeat: no-repeat;
+    padding-left: 2.6rem;
+    background-position-x: 0; //от левого края блока
+    background-position-y: 50%; //по центру высоты блока
+    background-size: 1.9rem;
+    cursor: pointer;
+}

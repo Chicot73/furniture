@@ -1,0 +1,4 @@
+.final-price__amount {
+    @include font (600, 1.8rem, 120%);
+    @include gray-1;
+}

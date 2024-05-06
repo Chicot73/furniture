@@ -1,0 +1,27 @@
+.slider-2__next {
+    position: absolute;
+    top: 50%;
+    right: 4rem;
+    transform: translate(0,-50%);
+    z-index: 100;
+    width: 4.8rem;
+    height: 4.8rem;
+    @include white-bg;
+    padding: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.2rem;
+    border-radius: 50%;
+    box-shadow: 0 .4rem 1.4rem .1rem rgba(0, 0, 0, 0.16);
+    user-select: none;
+    cursor: pointer;
+    & img {
+        transform: rotate(180deg);
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .slider-2__next {
+        display: none;
+    }
+}

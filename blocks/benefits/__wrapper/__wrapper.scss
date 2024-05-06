@@ -1,0 +1,33 @@
+.benefits__wrapper {
+    width: 100%;
+    padding: 0;
+    @include vert-c;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 8.1rem;
+}
+
+@media only screen and (min-width: 43em) and (max-width: 62.49em) {
+    .benefits__wrapper {
+        padding: 0 4.4rem;
+        height: 17.2rem;
+        margin-bottom: 7.9rem;
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 42.99em) {
+    .benefits__wrapper {
+        padding: 0 1.4rem;
+        height: 17.2rem;
+        margin-bottom: 7.9rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .benefits__wrapper {
+        margin-left: 2rem;
+        padding: 0 .5rem;
+        height: 45.8rem;
+        margin-bottom: 8.9rem;
+    }
+}

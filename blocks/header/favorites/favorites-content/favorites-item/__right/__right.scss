@@ -1,0 +1,15 @@
+.favorites-item__right {
+    width: 13.3rem;
+}
+
+@media only screen and (min-width: 29.1em) and (max-width: 36.99em) {
+    .favorites-item__right {
+        width: 10.6rem;
+    }
+}
+
+@media only screen and (max-width: 29em) {
+    .favorites-item__right {
+        width: 10.6rem;
+    }
+}

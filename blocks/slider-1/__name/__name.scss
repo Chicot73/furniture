@@ -1,0 +1,13 @@
+.slider-1__name {
+    
+    @include font (600, 2.6rem, 120%);
+    @include gray-1;
+    margin-bottom: .8rem;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .slider-1__name {
+        @include font (600, 2rem, 120%);
+        margin-bottom: .4rem;
+    }
+}

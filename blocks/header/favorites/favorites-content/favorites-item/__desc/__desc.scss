@@ -1,0 +1,7 @@
+.favorites-item__desc {
+    @include font (500, 1.3rem, 110%);
+    @include gray-3;
+    letter-spacing: .01em;
+    padding-bottom: .7rem;
+}
+

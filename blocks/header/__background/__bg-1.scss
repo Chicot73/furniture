@@ -1,0 +1,11 @@
+.header__bg-1 {
+    width: 64vw;
+    height: 100%;
+    background: #F9F1E7;
+}
+
+@media only screen and (min-width: 43em) and (max-width: 62.49em) {
+    .header__bg-1 {
+        width: 89vw;
+    }
+}

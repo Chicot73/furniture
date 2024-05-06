@@ -1,0 +1,16 @@
+.basket-item__price {
+    padding-left: 1.5rem;
+    width: auto;
+    @include font (600, 1.7rem, 130%);
+    @include gray-1;
+    letter-spacing: .01em;
+}
+
+@media only screen and (max-width: 29.2em) {
+    .basket-item__price {
+        padding-left: 1rem;
+        width: auto;
+        @include font (600, 1.4rem, 130%);
+
+    }
+}    

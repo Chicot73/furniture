@@ -1,0 +1,27 @@
+.benefits__item {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    & img {
+        width: 4rem;
+        height: 4rem;
+        object-fit: contain;
+        margin-right: 2.4rem;
+    }
+}
+
+@media only screen and (min-width: 62.5em) and (max-width: 76.875em) {
+    .benefits__item {
+        & img {
+            margin-right: 1.8rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .benefits__item {
+        & img {
+            margin-right: 1.8rem;
+        }
+    }
+}

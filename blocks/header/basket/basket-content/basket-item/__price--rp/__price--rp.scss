@@ -1,0 +1,7 @@
+.basket-item__price--rp {
+    width: 50%;
+    @include font (600, 1.7rem, 130%);
+    @include gray-1;
+    letter-spacing: .01em;
+    padding-left: 2rem;
+}

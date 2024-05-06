@@ -1,0 +1,23 @@
+.introduce__navi {
+    margin-top: 0;
+    @include vert-c;
+    position: absolute;
+    top: 8.8rem;
+    right: 0;
+    transform: translate(0,0);
+    width: 9.6rem;
+    cursor: pointer;
+    z-index: 100;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .introduce__navi {
+        top: 22.2rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .introduce__navi {
+        display: none;
+    }
+}

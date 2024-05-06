@@ -1,0 +1,46 @@
+.rooms__action {
+    position: absolute;
+    width: 43.5rem;
+    background: #FCF8F3;
+    height: 62rem;
+    text-align: left;
+    padding-top: 9.6rem;
+    top: -.1rem;
+    left: 1rem;
+    transform: translate(0,0);
+    z-index: 100;
+}
+
+@media only screen and (min-width: 62.5em) and (max-width: 76.875em) {
+    .rooms__action {
+        width: 31.5rem;
+        padding-right: 2rem;
+        left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .rooms__action {
+        width: 100%;
+        height: auto;
+        top: 1rem;
+        padding-top: 0;
+        left: 50%;
+        transform: translate(-50%,0);
+        text-align: center;
+        background: none;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .rooms__action {
+        width: 100%;
+        height: auto;
+        background: none;
+        top: 0;
+        padding-top: 0;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+}

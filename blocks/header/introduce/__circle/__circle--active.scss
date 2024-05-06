@@ -1,0 +1,16 @@
+.introduce__circle--active {
+    position: relative;
+    @include orange-bg;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 2.7rem;
+        height: 2.7rem;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: 1px solid #E89F71;
+        opacity: 0.7;
+    }
+}

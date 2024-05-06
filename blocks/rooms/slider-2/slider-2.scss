@@ -1,0 +1,121 @@
+.slider-2 {
+    width: 100%;
+
+    .swiper-container {
+        width: 100%;
+    }
+
+    .swiper-wrapper {
+        width: 100%;
+        margin-left: 4rem;
+    }
+
+    .swiper-slide {
+        width: 37.2rem;
+    }
+
+    .swiper-slide-active {
+        width: 37.2rem;
+        height: 58.2rem; 
+    }
+
+    .swiper-slide-active .slider-2__img {
+        width: 37.2rem;
+        height: 58.2rem;
+    }
+
+    .swiper-pagination {
+        margin-left: 33rem;
+        text-align: center;
+        --swiper-pagination-bullet-horizontal-gap: 8px;
+        --swiper-pagination-bottom: 5rem;
+    }
+
+    .swiper-pagination-bullet {
+        width: 1.1rem;
+        height: 1.1rem;
+        border-radius: 50%;
+        @include gray-5-bg;
+        opacity: 1;
+        margin-right: 2rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        @include orange-bg;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 2.7rem;
+            height: 2.7rem;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border: 1px solid #E89F71;
+            opacity: 0.7;
+        }
+    }
+
+    .swiper-slide-active .imagename {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .slider-2 {
+        height: 60rem;
+
+        .swiper-wrapper {
+            margin-left: 0;
+        }
+
+        .swiper-slide {
+            width: 32.8rem;
+        }
+    
+        .swiper-slide-active {
+            width: 32.8rem;
+            height: 49.1rem; 
+        }
+
+        .swiper-slide-active .slider-2__img {
+            width: 32.8rem;
+            height: 49.1rem;  
+        }
+
+        .swiper-pagination {
+            margin-left: 0;
+            text-align: center;
+            --swiper-pagination-bullet-horizontal-gap: 7px;
+            --swiper-pagination-bottom: 7.6rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .slider-2 {
+
+        .swiper-wrapper {
+            margin-left: 0;
+        }
+
+        .swiper-slide {
+            width: 27.2rem;
+        }
+    
+        .swiper-slide-active {
+            width: 27.2rem;
+            height: 41.8rem; 
+        }
+
+        .swiper-slide-active .slider-2__img {
+            width: 27.2rem;
+            height: 41.8rem;  
+        }
+
+        .swiper-pagination {
+            display: none;
+        }
+    }
+}

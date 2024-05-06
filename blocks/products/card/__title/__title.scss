@@ -1,0 +1,5 @@
+.card__title {
+    @include font (600, 2.4rem, 120%);
+    @include gray-1;
+    margin-bottom: .8rem;
+}

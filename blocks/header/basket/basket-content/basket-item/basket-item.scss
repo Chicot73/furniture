@@ -1,0 +1,8 @@
+.basket-item {
+    @include vert-c;
+    width: 100%;
+    padding: 0.7rem;
+    @include white-bg;
+    border: 0.1rem solid #B0B0B0;
+    margin-bottom: 1.4rem;
+}

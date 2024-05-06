@@ -1,0 +1,30 @@
+.slider-3__wrap {
+    width: 39.1rem;
+    height: auto;
+    & img {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media only screen and (min-width: 22.5em) and (max-width: 36.99em) {
+    .slider-3__wrap {
+        width: 37.6rem;
+        height: auto;
+        & img {
+            width: 100%;
+            height: fit-content;
+        }
+    }
+}
+
+@media only screen and (max-width: 22.49em) {
+    .slider-3__wrap {
+        width: 37.6rem;
+        height: auto;
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.favorites__buy {
+    display: block;
+    width: 10.4rem;
+    height: 3.2rem;
+    @include orange-bg;
+    @include white;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: .05rem;
+    margin: 0 .8rem .6rem 0;
+    @include font (600, 1.4rem, 150%);
+    cursor: pointer;
+    user-select: none;
+}

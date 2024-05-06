@@ -1,0 +1,18 @@
+.footer__account {
+    width: 13.44%; /* 159/1183 */ 
+    flex-shrink: 0;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .footer__account {
+        width: auto;
+        grid-column: 3;
+        grid-row: 1;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .footer__account {
+        width: 100%;
+    }
+}

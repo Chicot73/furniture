@@ -1,0 +1,9 @@
+.favorites-item__price {
+    width: 100%;
+    @include font (600, 1.4rem, 120%);
+    @include gray-2;
+    letter-spacing: .01em;
+    padding-top: .5rem;
+    padding-bottom: .8rem;
+}
+    

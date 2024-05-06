@@ -1,0 +1,16 @@
+.user__like {
+    position: relative;
+    flex-shrink: 0;
+    padding: 0;
+    padding-top: .3rem;
+    z-index: 2;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .user__like {
+        padding: 1.4rem 1.4rem 1rem;
+        border-radius: 50%;
+        @include light-orange-bg;
+    }
+}

@@ -1,0 +1,18 @@
+.footer__menu {
+    width: 14.37%; /* 170/1183 */
+    flex-shrink: 0;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .footer__menu {
+        width: auto;
+        grid-column: 2;
+        grid-row: 1;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .footer__menu {
+        width: 100%;
+    }
+}

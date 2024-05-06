@@ -1,0 +1,21 @@
+.rooms__decor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 37%;
+    height: 66.1rem;
+    background: #FCF8F3;
+    z-index: 99;
+}
+
+@media only screen and (min-width: 62.5em) and (max-width: 76.875em) {
+    .rooms__decor {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 62.49em) {
+    .rooms__decor {
+        display: none;
+    }
+}

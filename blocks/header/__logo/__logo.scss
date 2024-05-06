@@ -1,0 +1,17 @@
+.header__logo {
+    @include font (700, 2.4rem, 80%);
+    color: #000000;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .header__logo {
+        @include font (700, 2.3rem, 82%);
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .header__logo {
+        @include font (700, 2.8rem, 125%);
+        color: #FFFFFF;
+    }
+}

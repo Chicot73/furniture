@@ -1,0 +1,18 @@
+.footer__socials {
+    width: 20.8%; /* 246/1183 */
+    flex-shrink: 0;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .footer__socials {
+        width: auto;
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .footer__socials {
+        width: 100%;
+    }
+}

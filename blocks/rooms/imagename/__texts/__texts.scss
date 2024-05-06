@@ -1,0 +1,21 @@
+.imagename__texts {
+    width: 21.7rem;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    padding: 1.9rem;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .imagename__texts {
+        width: 20.2rem;
+        padding: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .imagename__texts {
+        width: 18.2rem;
+        padding: 1.8rem 1.6rem;
+    }
+}

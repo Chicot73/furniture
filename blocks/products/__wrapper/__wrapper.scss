@@ -1,0 +1,23 @@
+.products__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 22.8%);
+    gap: 2.7rem 2.6%;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .products__wrapper {
+        grid-template-columns: repeat(auto-fill, 47.4%);
+        gap: 5.1rem 4.92%;
+        margin-bottom: 3.6rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .products__wrapper {
+        grid-template-columns: repeat(auto-fill, 100%);
+        gap: 4.7rem 4.92%;
+        margin-bottom: 3.6rem;
+    }
+}

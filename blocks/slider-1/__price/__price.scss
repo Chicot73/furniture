@@ -1,0 +1,16 @@
+.slider-1__price {
+    @include font (600, 1.9rem, 147%);
+    @include gray-1;
+}
+
+@media only screen and (min-width: 62.5em) and (max-width: 76.875em) {
+    .slider-1__price {
+        @include font (600, 1.6rem, 147%);
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .slider-1__price {
+        @include font (600, 1.4rem, 147%);
+    }
+}

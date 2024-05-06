@@ -1,0 +1,11 @@
+@media only screen and (max-width: 36.99em) {
+    .essays__next {
+        width: 1.3rem;
+        height: 2.6rem;
+        user-select: none;
+        cursor: pointer;
+        & img {
+            object-fit: contain;
+        }
+    }
+}

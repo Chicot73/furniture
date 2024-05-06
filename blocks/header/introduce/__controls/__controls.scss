@@ -1,0 +1,23 @@
+.introduce__controls {
+    position: absolute;
+    top: 8.8rem;
+    left: 0;
+    transform: translate(0,0);
+    z-index: 10;
+    display: block;
+    align-items: flex-start;
+    user-select: none;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .introduce__controls {
+        top: 8.6rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .introduce__controls {
+        position: absolute;
+        top: 2.3rem;
+    }
+}

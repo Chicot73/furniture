@@ -1,0 +1,17 @@
+@media only screen and (max-width: 36.99em) {
+    .header__menu--in {
+        position: relative;
+        left: 50%;
+        animation: move3 .3s;
+        animation-timing-function: ease-out;
+        @keyframes move3 {
+
+            from {
+                left: -150%;
+            }
+            to { 
+                left: 50%;
+            }
+        }
+    }
+}

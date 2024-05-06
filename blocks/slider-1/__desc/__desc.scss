@@ -1,0 +1,12 @@
+.slider-1__desc {
+   
+    @include font (500, 1.5rem, 150%);
+    @include gray-2;
+    margin-bottom: .5rem;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .slider-1__desc {
+        @include font (500, 1.4rem, 150%);
+    }
+}

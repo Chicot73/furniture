@@ -1,0 +1,15 @@
+
+@media only screen and (max-width: 36.99em) {
+    .header__orange {
+        width: 100%;
+        height: 46.7rem;
+        position: absolute;
+        top: 0;
+        left: -150%;
+        transform: translate(-50%,0);
+        display: block;
+        z-index: 99;
+        @include orange-bg;
+        filter: drop-shadow(0 2.2rem 5.4rem rgba(0, 0, 0, 0.38));
+    }
+}

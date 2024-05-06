@@ -1,0 +1,38 @@
+.introduce__action {
+    width: 38.1rem;
+    padding: 3.3rem 4.8rem 4.7rem;
+    background: rgba(255, 255, 255, 0.72);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+}
+
+@media only screen and (min-width: 62.5em) and (max-width: 76.875em) {
+    .introduce__action {
+        padding: 2.8rem 3.8rem 3.8rem;
+        width: 33.1rem;
+    }
+}
+
+@media only screen and (min-width: 43em) and (max-width: 62.49em) {
+    .introduce__action {
+        width: 29.7rem;
+        padding: 2.2rem 3.2rem 3.1rem;
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 42.99em) {
+    .introduce__action {
+        width: 27.1rem;
+        padding: 2.2rem 2.4rem 3.1rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .introduce__action {
+        width: 100%;
+        background: none;
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+        padding: 0;
+    }
+}

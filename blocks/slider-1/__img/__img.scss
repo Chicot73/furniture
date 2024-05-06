@@ -1,0 +1,16 @@
+.slider-1__img {
+    text-align: center;
+    width: 91.9rem;
+    height: 50.2rem;
+}
+
+.slider-1__img img {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .slider-1__img {
+        width: 81.9rem;
+        height: 49.3rem;
+    }
+}

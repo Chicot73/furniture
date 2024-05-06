@@ -1,0 +1,21 @@
+.favorites-alert__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.9rem;
+    width: 14rem;
+    height: 4.4rem;
+    @include orange-bg;
+    @include white;
+    text-align: center;
+    @include font (600, 1.4rem, 153%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .favorites-alert__button {
+        width: 14.5rem;
+        height: 5rem;
+        @include font (600, 1.6rem, 153%);
+    }
+}

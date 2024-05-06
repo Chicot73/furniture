@@ -1,0 +1,7 @@
+.header__plate {
+    @include absolute00;
+    z-index: 3;
+    width: 15.9rem;
+    height: 17.9rem;
+    @include gray-6;
+}

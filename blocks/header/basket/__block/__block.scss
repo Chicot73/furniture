@@ -1,0 +1,21 @@
+.basket__block {
+    width: 70.6rem;
+    max-height: 90vh;
+    padding: 2.1rem 3.6rem 3.3rem;
+    @include white-bg;
+    border: 0.2rem solid #E89F71;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.38);
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 44em) {
+    .basket__block {
+        width: 100%;
+        max-height: 100vh;
+        padding: 2.1rem 2rem 3.3rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,4 @@
+.card__newprice {
+    @include font (600, 1.9rem, 150%);
+    @include gray-1;
+}

@@ -1,0 +1,21 @@
+.header__title {
+    @include font (500, 1.6rem, 150%);
+    @include gray-1;
+    position:relative;
+    &:not(:last-child) {
+        padding-right: 0.8rem;
+    }  
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .header__title {
+        @include font (500, 1.3rem, 150%);
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .header__title {
+        @include font (500, 1.6rem, 150%);
+        @include white;
+    }
+}

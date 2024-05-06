@@ -1,0 +1,91 @@
+@mixin font ($weight, $size, $height) {
+font-weight: $weight; //начертание
+font-size: $size; //размер
+line-height: $height; //интерлиньяж
+font-family: 'Gilroy';
+//@include font (700, 9rem, 116%);
+}
+
+@mixin vert-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin absolute00 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0,0);
+}
+
+@mixin absolute0-center {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+@mixin gray-1 {
+    color: #3A3A3A;
+}
+
+@mixin gray-2 {
+    color: #616161;
+}
+
+@mixin gray-3 {
+    color: #898989;
+}
+
+@mixin gray-4 {
+    color: #B0B0B0;
+}
+
+@mixin gray-5-bg {
+    background: #D8D8D8;
+}
+
+@mixin light-bg {
+    background: #F4F5F7;
+}
+
+@mixin gray-6 {
+    color: #E7E7E7;
+}
+
+@mixin gray-6-bg {
+    background: #E7E7E7;
+}
+
+@mixin green {
+    color: #2EC1AC;
+}
+
+@mixin green-bg {
+    background: #2EC1AC;
+}
+
+@mixin red-bg {
+    background: #E97171;
+}
+
+@mixin orange {
+    color: #E89F71;
+}
+
+@mixin orange-bg {
+    background: #E89F71;
+}
+
+@mixin light-orange-bg {
+    background: #FFEADC;
+}
+
+@mixin white {
+    color: #FFFFFF;
+}
+
+@mixin white-bg {
+    background: #FFFFFF;
+}

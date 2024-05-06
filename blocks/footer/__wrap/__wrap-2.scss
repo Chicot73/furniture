@@ -1,0 +1,11 @@
+.footer__wrap-2 {
+    margin-top: 2.4rem;
+    @include vert-c;
+}
+
+@media only screen and (max-width: 62.49em) {
+    .footer__wrap-2 {
+        margin-top: 0;
+    }
+}
+

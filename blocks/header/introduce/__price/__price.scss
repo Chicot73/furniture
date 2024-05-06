@@ -1,0 +1,10 @@
+.introduce__price {
+    display: none;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .introduce__price {
+        display: inline;
+        @include font (600, 2rem, 150%);
+    }
+}

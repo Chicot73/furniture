@@ -1,0 +1,26 @@
+.amount__plus {
+    width: 1.9rem;
+    height: 1.9rem;
+    @include font (700, 1.8rem, 90%);
+    @include white;
+    @include gray-5-bg;
+    border-radius: 50%;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: .05rem;
+    margin-left: 1.1rem;
+    flex-shrink: 0;
+    user-select: none;
+    &:active {
+        @include green-bg;
+    }
+}
+
+@media only screen and (max-width: 29.2em) {
+    .amount__plus {
+        width: 1.4rem;
+        height: 1.4rem;
+        @include font (700, 1.2rem, 90%);
+        margin-left: 0.5rem;
+    }
+}

@@ -1,0 +1,43 @@
+.rooms__desc {
+    width: 38rem;
+    @include font (500, 1.6rem, 150%);
+    @include gray-2;
+    margin-bottom: 2.4rem;
+}
+
+@media only screen and (min-width: 62.5em) and (max-width: 76.875em) {
+    .rooms__desc {
+        width: 24rem;
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .rooms__desc {
+        width: 100%;
+        @include font (500, 1.4rem, 150%);
+        @include gray-2;
+        margin-bottom: 2.3rem;
+    }
+}
+
+@media only screen and (min-width: 43em) and (max-width: 62.49em) {
+    .rooms__desc {
+        padding: 0 10.2rem;
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 42.99em) {
+    .rooms__desc {
+        padding: 0 6.2rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .rooms__desc {
+        width: 100%;
+        @include font (500, 1.8rem, 150%);
+        @include gray-2;
+        margin-bottom: 3rem;
+        padding: 0;
+    }
+}

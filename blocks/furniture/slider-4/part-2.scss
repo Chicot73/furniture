@@ -1,0 +1,28 @@
+.part-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    min-width: 0;
+    & img:nth-child(1) {
+        display: block;
+        width: 23.6rem;
+        margin-bottom: 2rem;
+        flex-shrink: 0;
+    }
+    & img:nth-child(2) {
+        display: block;
+        width: 34.2rem;
+        margin-bottom: 2rem;
+        flex-shrink: 0;
+    }
+}
+@media only screen and (max-width: 36.99em) {
+    .part-2 {
+        & img:nth-child(1) {
+            margin-bottom: 1.5rem;
+        }
+        & img:nth-child(2) {
+            margin-bottom: 1.5rem;
+        }
+    }
+}

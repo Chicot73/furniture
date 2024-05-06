@@ -1,0 +1,11 @@
+.introduce__desc-2 {
+    display: none;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .introduce__desc-2 {
+        display: block;
+        @include font (500, 1.6rem, 150%);
+        margin-bottom: 1.6rem;
+    }
+}

@@ -1,0 +1,9 @@
+.header__head {
+    @include vert-c;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .header__head {
+        margin-bottom: 4.9rem;
+    }
+}

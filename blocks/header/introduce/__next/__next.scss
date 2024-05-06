@@ -1,0 +1,15 @@
+.introduce__next {
+    position: relative;
+    width: 4.4rem;
+    height: 4.4rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.2rem;
+    border-radius: 50%;
+    @include orange-bg;
+    user-select: none;
+    & img {
+        object-fit: contain;
+    }
+}

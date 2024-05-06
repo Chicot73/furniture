@@ -1,0 +1,26 @@
+.introduce__button {
+    width: 100%;
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+    text-align: center;
+    @include white;
+    @include orange-bg;
+    @include font (600, 1.9rem, 150%);
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .introduce__button {
+        @include font (600, 1.3rem, 150%);
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
+    }
+}    
+
+@media only screen and (max-width: 36.99em) {
+    .introduce__button {
+        @include font (600, 2.2rem, 150%);
+        padding-top: 2.2rem;
+        padding-bottom: 2.2rem;
+        margin-bottom: 43rem;
+    }
+}

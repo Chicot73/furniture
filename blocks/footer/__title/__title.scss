@@ -1,0 +1,13 @@
+.footer__title {
+    @include font (700, 2.1rem, 125%);
+    color: #000000;
+    margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .footer__title {
+        margin-top: 2.9rem;
+        @include font (700, 2.4rem, 125%);
+        margin-bottom: 1.9rem;
+    }
+}

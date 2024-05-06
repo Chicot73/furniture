@@ -1,0 +1,18 @@
+.imagename__title {
+    @include font (600, 2.8rem, 119%);
+    letter-spacing: -0.01em;
+    @include gray-2;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .imagename__title {
+        @include font (600, 2.6rem, 119%);
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .imagename__title {
+        @include font (600, 2.4rem, 119%);
+        letter-spacing: -0.03em;
+    }
+}

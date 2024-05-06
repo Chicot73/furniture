@@ -1,0 +1,17 @@
+.card__oldprice {
+    @include font (400, 1.6rem, 150%);
+    @include gray-4;
+    text-decoration-line: line-through;
+}
+
+@media only screen and (min-width: 62.5em) and (max-width: 76.875em) {
+    .card__oldprice {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 42.99em) {
+    .card__oldprice {
+        display: block;
+    }
+}

@@ -1,0 +1,16 @@
+.slider-1__wrap {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 2.5rem;
+
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .slider-1__wrap {
+        margin-left: 2.2rem;
+    }
+}

@@ -1,0 +1,23 @@
+.introduce__product {
+    display: none;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .introduce__product {
+        display: block;
+        text-align: start;
+        width: 100%;
+        padding: 2.1rem 2.5rem 2.9rem;
+        background: rgba(250, 241, 230, 0.79);
+        backdrop-filter: blur(14.6565px);
+        -webkit-backdrop-filter: blur(14px);
+        margin-bottom: 7.8rem;
+        & img {
+            display: inline;
+            width: 1.7rem;
+            height: 1.3rem;
+            margin-left: 10rem;
+        }
+    }
+}
+

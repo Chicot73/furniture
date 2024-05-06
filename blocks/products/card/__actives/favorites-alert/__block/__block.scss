@@ -1,0 +1,25 @@
+.favorites-alert__block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-41%, -48%);
+    width: 26.8rem;
+    @include font (600, 1.7rem, 140%);
+    @include gray-2;
+    text-align: center;
+    padding: 3.3rem 3.6rem 3.5rem;
+    @include white-bg;
+    border: 0.2rem solid #E89F71;
+    margin: auto;
+    box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.38);
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .favorites-alert__block {
+        @include font (600, 1.9rem, 140%);
+        transform: translate(-50%, -48%);
+    }
+}

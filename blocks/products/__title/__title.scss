@@ -1,0 +1,13 @@
+.products__title {
+    @include font (700, 3.7rem, 120%);
+    @include gray-1;
+    text-align: center;
+    margin-bottom: 4.2rem;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .products__title {
+        @include font (700, 3.4rem, 120%);
+        margin-bottom: 3.6rem;
+    }
+}

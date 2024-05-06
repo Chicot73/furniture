@@ -1,0 +1,21 @@
+.rooms__slider {
+    //position: relative;
+    width: 100%;
+    height: 62rem;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .rooms__slider {
+        margin-top: 23rem;
+        height: 53rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .rooms__slider {
+        margin-top: 31rem;
+        height: 41rem;
+    }
+}

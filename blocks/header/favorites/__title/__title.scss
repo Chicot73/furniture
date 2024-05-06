@@ -1,0 +1,6 @@
+.favorites__title {
+    @include font (600, 2rem, 118%);
+    @include gray-2;
+    margin-top: 1.5rem;
+}
+

@@ -1,0 +1,19 @@
+.slide-4__section {
+    & img {
+        display: block;
+        width: 100%;
+        margin-bottom: 2rem;
+        flex-shrink: 0;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .slide-4__section {
+        & img {
+            display: block;
+            width: 100%;
+            margin-bottom: 1.5rem;
+            flex-shrink: 0;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.basket-item__right {
+    @include vert-c;
+    justify-content: space-between;
+    width: 57%;
+}
+
+@media only screen and (min-width: 29.1em) and (max-width: 36.99em) {
+    .basket-item__right {
+        width: 24.1rem;
+    }
+}
+
+@media only screen and (max-width: 29em) {
+    .basket-item__right {
+        width: 20rem;
+    }
+}

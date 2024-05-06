@@ -1,0 +1,9 @@
+.basket-item__off {
+    @include font (700, 1.2rem, 100%);
+    font-size: 1.2rem;
+    padding-right: .5rem;
+    cursor: pointer;
+    color: #E97171;
+    @include white-bg;
+    display: inline;
+}

@@ -1,0 +1,11 @@
+.amount__word {
+    display: block;
+    @include font (600, 1.4rem, 120%);
+    @include gray-3;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .amount__word {
+        display: none;
+    }
+}

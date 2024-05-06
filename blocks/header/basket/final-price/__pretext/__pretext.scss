@@ -1,0 +1,5 @@
+.final-price__pretext {
+    @include font (600, 1.6rem, 120%);
+    @include gray-1;
+    text-align: center;
+}

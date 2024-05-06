@@ -1,0 +1,21 @@
+.card__socials {
+    @include vert-c;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media only screen and (min-width: 62.5em) and (max-width: 76.875em) {
+    .card__socials {
+        display: block;
+        padding-right: 1.1rem;
+        padding-left: 2.7rem;
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 42.99em) {
+    .card__socials {
+        display: block;
+        padding-right: 1.1rem;
+        padding-left: 4.2rem;
+    }
+}

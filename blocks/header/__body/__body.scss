@@ -1,0 +1,45 @@
+.header__body {
+    @include absolute00;
+    top: 2.3rem;
+    z-index: 20;
+    width: 17.9rem;
+    & li a{
+        display: block;
+        width: 100%;
+        @include font (500, 1.4rem, 150%);
+        letter-spacing: 0.01em;
+        @include gray-1;
+        padding: 0.2rem 0.9rem 0.35rem;
+        @include gray-6-bg;
+    }
+    & li a:hover {
+        @include white;
+        @include orange-bg;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .header__body {
+        top: 1.8rem;
+        width: 14.5rem;
+        & li a{
+            @include font (500, 1.25rem, 150%);
+            letter-spacing: 0.01em;
+            padding: 0.17rem 0.75rem 0.32rem;
+        }
+    }
+}    
+
+@media only screen and (max-width: 36.99em) {
+    .header__body {
+        top: 3.9rem;
+        width: 100%;
+        z-index: 120;
+        & li a{
+            @include font (500, 1.6rem, 150%);
+            letter-spacing: 0.01em;
+            padding: 0.4rem 1.4rem 0.7rem;
+        }
+    }
+}

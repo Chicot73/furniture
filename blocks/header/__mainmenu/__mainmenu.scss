@@ -1,0 +1,14 @@
+.header__mainmenu {
+    width: 100%;
+    margin-right: 7rem;
+    height: 4.5rem;
+    @include vert-c;
+}
+
+@media only screen and (max-width: 36.99em) {
+    .header__mainmenu {
+        display: block;
+        height: auto;
+        margin-bottom: 3.6rem;
+    }
+}

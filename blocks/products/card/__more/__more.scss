@@ -1,0 +1,17 @@
+.card__more {
+    display: block;
+    @include font (600, 1.5rem, 150%);
+    @include white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.06em;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 2rem;
+    &:hover {
+        text-decoration: none;
+        background: rgba(255, 255, 255);
+        @include gray-2;
+    }
+}

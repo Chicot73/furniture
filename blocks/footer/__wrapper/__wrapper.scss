@@ -1,0 +1,24 @@
+.footer__wrapper {
+    margin-bottom: 6rem;
+    padding-top: 6.4rem;
+    border-top: 0.1rem solid #D8D8D8;
+    width: 100%;
+    display: flex;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .footer__wrapper {
+        padding-top: 4.9rem;
+        display: grid;
+        grid-template: auto auto / 1fr 17.3rem 9.6rem;
+        grid-auto-flow: column;
+        gap: 5.7rem 0;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .footer__wrapper {
+        padding-top: 4.2rem;
+        display: block;
+    }
+}

@@ -1,0 +1,18 @@
+.basket-item__image {
+    width: 6.8rem;
+    height: 6.8rem;
+}
+
+@media only screen and (min-width: 24.81em) and (max-width: 29.2em) {
+    .basket-item__image {
+        width: 3.8rem;
+        height: auto;
+    }
+}
+    
+@media only screen and (max-width: 24.8em) {
+    .basket-item__image {
+        width: 2.8rem;
+        height: auto;
+    }
+}

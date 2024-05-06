@@ -1,0 +1,9 @@
+.favorites-item__off {
+    @include font (700, 1.4rem, 100%);
+    position: absolute;
+    top: .5rem;
+    right: .6rem;
+    cursor: pointer;
+    color: #E97171;
+    @include white-bg;
+}

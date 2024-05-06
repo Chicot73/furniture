@@ -1,0 +1,24 @@
+.rooms {
+    position: relative;
+    width: 100%;
+    background: #FCF8F3;
+    padding-top: 4.2rem;
+    padding-bottom: 0.3rem;
+    margin-bottom: 8.3rem;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .rooms {
+        padding-top: 3.2rem;
+        padding-bottom: 2.3rem;
+        margin-bottom: 5.1rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .rooms {
+        margin-bottom: 5.1rem;
+        padding-top: 3.2rem;
+        padding-bottom: 5.3rem;
+    }
+}

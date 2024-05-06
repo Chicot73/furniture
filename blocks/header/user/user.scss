@@ -1,0 +1,22 @@
+.user {
+    width: 15.2rem;
+    //height: 100%;
+    @include vert-c;
+    flex-shrink: 0;
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .user {
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .user {
+        width: 100%;
+        padding: 0 1.3rem;
+        margin: 0;
+    }
+}

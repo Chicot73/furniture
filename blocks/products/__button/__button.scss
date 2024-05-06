@@ -1,0 +1,35 @@
+.products__button {
+    display: block;
+    @include font (600, 1.6rem, 150%);
+    width: 23.4rem;
+    height: 4.8rem;
+    //padding: 1.2rem auto;
+    border: 0.1rem solid #E89F71;
+    @include orange;
+    @include white-bg;
+    margin-bottom: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover {
+        border: 0.2rem solid #E89F71;
+    } 
+}
+
+@media only screen and (min-width: 37em) and (max-width: 62.49em) {
+    .products__button {
+        margin-bottom: 5.4rem;
+        width: 17.6rem;
+        height: 4.8rem;
+        padding: 1.2rem auto;
+    }
+}
+
+@media only screen and (max-width: 36.99em) {
+    .products__button {
+        @include font (600, 1.7rem, 150%);
+        margin-bottom: 6.3rem;
+        width: 21.8rem;
+        height: 5.2rem;
+        padding: 1.3rem auto;
+    }
+}
